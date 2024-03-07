@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.sql.Date;
 
-
 @ExtendWith(MockitoExtension.class)
 class HotelControllerTest {
 

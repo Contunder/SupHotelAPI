@@ -1,20 +1,12 @@
 package com.supinfo.suphotel.hotel.domain.usecase;
 
-import com.supinfo.suphotel.exception.ResourceNotFoundException;
-import com.supinfo.suphotel.hotel.domain.gateway.HotelDto;
 import com.supinfo.suphotel.hotel.domain.gateway.HotelsResponse;
 import com.supinfo.suphotel.hotel.domain.mapper.HotelMapper;
 import com.supinfo.suphotel.hotel.infrastructure.HotelRepository;
-import com.supinfo.suphotel.hotel.infrastructure.model.Hotel;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Component
 public class ReadHotel {
