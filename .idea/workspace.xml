@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8039853a-6861-46f0-8c9e-a77bb50d0c95" name="Changes" comment="Refacto">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/gateway/FilterHotelDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/application/HotelControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelWithFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelWithFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="8039853a-6861-46f0-8c9e-a77bb50d0c95" name="Changes" comment="Refacto" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -284,7 +272,7 @@
       <workItem from="1709741210692" duration="38000" />
       <workItem from="1709741393064" duration="1763000" />
       <workItem from="1709766860028" duration="321000" />
-      <workItem from="1709812110458" duration="12428000" />
+      <workItem from="1709812110458" duration="13131000" />
     </task>
     <task id="LOCAL-00001" summary="Clean">
       <option name="closed" value="true" />
@@ -398,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709819696610</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Refacto">
+      <option name="closed" value="true" />
+      <created>1709826446214</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709826446214</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
