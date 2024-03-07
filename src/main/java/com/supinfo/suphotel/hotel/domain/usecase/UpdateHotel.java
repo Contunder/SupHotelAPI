@@ -36,15 +36,10 @@ public class UpdateHotel {
 
         saveOpenDate.execute(hotelDto);
 
-        Set<Open> opens = new HashSet<>();
-        hotelDto.getOpen()
-                .forEach(openDto -> opens.add(openRepository.getOpenByDate(openDto.getDate()))
-        );
-
 
         return hotelMapper.mapToDTO(
                 hotelRepository.save(
-                        hotelMapper.mapUpdateToModel(hotelDto, hotel, opens)
+                        hotelMapper.mapUpdateToModel(hotelDto, hotel)
                 ));
     }
 

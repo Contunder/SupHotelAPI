@@ -2,16 +2,14 @@ package com.supinfo.suphotel.hotel.application;
 
 import com.supinfo.suphotel.hotel.domain.gateway.HotelDto;
 import com.supinfo.suphotel.hotel.domain.gateway.HotelsResponse;
-import com.supinfo.suphotel.hotel.domain.usecase.CreateHotel;
-import com.supinfo.suphotel.hotel.domain.usecase.DeleteHotel;
-import com.supinfo.suphotel.hotel.domain.usecase.ReadHotel;
-import com.supinfo.suphotel.hotel.domain.usecase.UpdateHotel;
-import jakarta.servlet.http.HttpServletRequest;
+import com.supinfo.suphotel.hotel.domain.usecase.*;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
+
+import java.sql.Date;
 
 import static com.supinfo.suphotel.utils.AppConstants.*;
 
@@ -21,12 +19,14 @@ public class HotelController {
 
     private final CreateHotel createHotel;
     private final ReadHotel readHotel;
+    private final ReadHotelWithFilter readHotelWithFilter;
     private final UpdateHotel updateHotel;
     private final DeleteHotel deleteHotel;
 
-    public HotelController(CreateHotel createHotel, ReadHotel readHotel, UpdateHotel updateHotel, DeleteHotel deleteHotel) {
+    public HotelController(CreateHotel createHotel, ReadHotel readHotel, ReadHotelWithFilter readHotelWithFilter, UpdateHotel updateHotel, DeleteHotel deleteHotel) {
         this.createHotel = createHotel;
         this.readHotel = readHotel;
+        this.readHotelWithFilter = readHotelWithFilter;
         this.updateHotel = updateHotel;
         this.deleteHotel = deleteHotel;
     }
@@ -40,9 +40,22 @@ public class HotelController {
         return ResponseEntity.ok(readHotel.execute(pageNo, pageSize, sortBy, sortDir));
     }
 
+    @GetMapping(value = {"/read/city/{city}/datein/{datein}/dateout/{dateout}/people/{people}"})
+    public ResponseEntity<HotelsResponse> readHotelbyFilter(
+            @PathVariable("city") String city,
+            @PathVariable("datein") Date dateIn,
+            @PathVariable("dateout") Date dateOut,
+            @PathVariable("people") int people,
+            @RequestParam(value = "pageNo", defaultValue = DEFAULT_PAGE_NUMBER, required = false) int pageNo,
+            @RequestParam(value = "pageSize", defaultValue = DEFAULT_PAGE_SIZE, required = false) int pageSize,
+            @RequestParam(value = "sortBy", defaultValue = DEFAULT_SORT_BY, required = false) String sortBy,
+            @RequestParam(value = "sortDir", defaultValue = DEFAULT_SORT_DIRECTION, required = false) String sortDir) {
+        return ResponseEntity.ok(readHotelWithFilter.execute(pageNo, pageSize, sortBy, sortDir, city, dateIn, dateOut, people));
+    }
+
     @PostMapping("/create")
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<HotelDto> createHotel(HttpServletRequest request, @Valid @RequestBody HotelDto hotelDto){
+    public ResponseEntity<HotelDto> createHotel(@Valid @RequestBody HotelDto hotelDto){
 
         return new ResponseEntity<>(createHotel.execute(hotelDto), HttpStatus.CREATED);
     }

@@ -29,12 +29,6 @@ public class CreateHotel {
     public HotelDto execute(HotelDto hotelDto) {
         saveOpenDate.execute(hotelDto);
 
-        Set<Open> opens = new HashSet<>();
-        hotelDto.getOpen()
-            .forEach(openDto -> opens.add(openRepository.getOpenByDate(openDto.getDate()))
-        );
-
-
-        return hotelMapper.mapToDTO(hotelRepository.save(hotelMapper.mapToModel(hotelDto, opens)));
+        return hotelMapper.mapToDTO(hotelRepository.save(hotelMapper.mapToModel(hotelDto)));
     }
 }

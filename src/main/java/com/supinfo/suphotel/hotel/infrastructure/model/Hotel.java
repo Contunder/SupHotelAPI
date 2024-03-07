@@ -32,11 +32,18 @@ public class Hotel {
     @Column(name = "pictures")
     private String pictures;
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinTable(name = "hotel_open",
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinTable(name = "hotel_openin",
             joinColumns = @JoinColumn(name = "hotel_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "open_id", referencedColumnName = "id")
     )
-    private Set<Open> opens;
+    private Open openIn;
+
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinTable(name = "hotel_openout",
+            joinColumns = @JoinColumn(name = "hotel_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "open_id", referencedColumnName = "id")
+    )
+    private Open openOut;
 
 }

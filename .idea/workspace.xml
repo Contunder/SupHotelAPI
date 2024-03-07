@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8039853a-6861-46f0-8c9e-a77bb50d0c95" name="Changes" comment="Add Open days">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadOpenDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/gateway/HotelDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/gateway/HotelDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/mapper/HotelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/mapper/HotelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/mapper/OpenMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/mapper/OpenMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/CreateHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/CreateHotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/GetHotelWithFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelWithFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/SaveOpenDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/SaveOpenDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/UpdateHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/UpdateHotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/HotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/HotelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/OpenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/OpenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/model/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/model/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +39,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;docker-desktop&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="docker-desktop" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -110,21 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-hotel-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.hotel.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.Controller" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.Controller.UserControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SupHotelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="springboot-hotel-rest-api" />
@@ -174,6 +183,20 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
     </configuration>
     <configuration name="Python tests in test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
@@ -225,19 +248,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Docker.Dockerfile" />
       <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
       <item itemvalue="JUnit.CustomUserDetailsServiceTest" />
-      <item itemvalue="JUnit.UserControllerTest" />
       <item itemvalue="Python tests.Python tests in test" />
       <item itemvalue="Spring Boot.SupHotelApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SupHotelApplication" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Spring Boot.SupHotelApplication" />
         <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
         <item itemvalue="JUnit.CustomUserDetailsServiceTest" />
-        <item itemvalue="Python tests.Python tests in test" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +279,9 @@
       <workItem from="1709715105959" duration="8971000" />
       <workItem from="1709737993516" duration="3193000" />
       <workItem from="1709741210692" duration="38000" />
+      <workItem from="1709741393064" duration="1763000" />
+      <workItem from="1709766860028" duration="321000" />
+      <workItem from="1709812110458" duration="7256000" />
     </task>
     <task id="LOCAL-00001" summary="Clean">
       <option name="closed" value="true" />
@@ -329,7 +355,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709741225600</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Open days">
+      <option name="closed" value="true" />
+      <created>1709741440912</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709741440912</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add Open days">
+      <option name="closed" value="true" />
+      <created>1709741446593</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709741446593</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add Open days">
+      <option name="closed" value="true" />
+      <created>1709741959279</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709741959279</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,14 +395,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/mapper/HotelMapper.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/CreateHotel.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/user/application/AuthController.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelWithFilter.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

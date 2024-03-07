@@ -15,6 +15,7 @@ public class HotelDto {
     private String country;
     private String description;
     private String pictures;
-    private Set<OpenDto> open;
+    private OpenDto openIn;
+    private OpenDto openOut;
 
 }
