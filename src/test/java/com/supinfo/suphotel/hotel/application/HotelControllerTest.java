@@ -1,6 +1,7 @@
 package com.supinfo.suphotel.hotel.application;
 
 import com.supinfo.suphotel.hotel.domain.gateway.FilterHotelDto;
+import com.supinfo.suphotel.hotel.domain.gateway.HotelDto;
 import com.supinfo.suphotel.hotel.domain.gateway.HotelsResponse;
 import com.supinfo.suphotel.hotel.domain.usecase.*;
 import com.supinfo.suphotel.user.application.UserController;
@@ -73,6 +74,51 @@ class HotelControllerTest {
         Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
         Assertions.assertEquals(new HotelsResponse(), response.getBody());
         Mockito.verify(readHotelWithFilter).execute(0, 10, "id", "asc", filterHotelDto);
+    }
+
+    @Test
+    void testCreateHotel() {
+        // Arrange
+        HotelDto hotelDto = new HotelDto();
+        Mockito.when(createHotel.execute(hotelDto)).thenReturn(hotelDto);
+
+        // Act
+        ResponseEntity<HotelDto> response = hotelController.createHotel(hotelDto);
+
+        // Assert
+        Assertions.assertEquals(HttpStatus.CREATED, response.getStatusCode());
+        Assertions.assertEquals(new HotelDto(), response.getBody());
+        Mockito.verify(createHotel).execute(hotelDto);
+    }
+
+    @Test
+    void testUpdateHotel() {
+        // Arrange
+        HotelDto hotelDto = new HotelDto();
+        Mockito.when(updateHotel.execute(hotelDto)).thenReturn(hotelDto);
+
+        // Act
+        ResponseEntity<HotelDto> response = hotelController.updateHotel(hotelDto);
+
+        // Assert
+        Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+        Assertions.assertEquals(new HotelDto(), response.getBody());
+        Mockito.verify(updateHotel).execute(hotelDto);
+    }
+
+    @Test
+    void testDeleteHotel() {
+        // Arrange
+        HotelDto hotelDto = new HotelDto();
+        Mockito.when(deleteHotel.execute("MonHotel")).thenReturn("Hotel MonHotel deleted successfully.");
+
+        // Act
+        ResponseEntity<String> response = hotelController.deleteResource("MonHotel");
+
+        // Assert
+        Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+        Assertions.assertEquals("Hotel MonHotel deleted successfully.", response.getBody());
+        Mockito.verify(deleteHotel).execute("MonHotel");
     }
 
 }
