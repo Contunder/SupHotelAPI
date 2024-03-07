@@ -7,9 +7,7 @@ import com.supinfo.suphotel.hotel.infrastructure.model.Hotel;
 import com.supinfo.suphotel.hotel.infrastructure.model.Open;
 import org.springframework.data.domain.Page;
 
-import java.awt.print.Pageable;
 import java.util.List;
-import java.util.Set;
 
 public class HotelMapper {
 

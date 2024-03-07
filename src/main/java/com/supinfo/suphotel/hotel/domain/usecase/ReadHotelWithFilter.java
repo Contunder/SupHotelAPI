@@ -4,14 +4,10 @@ import com.supinfo.suphotel.hotel.domain.gateway.HotelsResponse;
 import com.supinfo.suphotel.hotel.domain.mapper.HotelMapper;
 import com.supinfo.suphotel.hotel.infrastructure.HotelRepository;
 import com.supinfo.suphotel.hotel.infrastructure.model.Hotel;
-import com.supinfo.suphotel.hotel.infrastructure.model.Open;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Component;
 
 import java.sql.Date;
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 @Component
 public class ReadHotelWithFilter {

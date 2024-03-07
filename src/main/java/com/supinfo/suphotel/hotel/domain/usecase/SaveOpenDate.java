@@ -1,8 +1,6 @@
 package com.supinfo.suphotel.hotel.domain.usecase;
 
 import com.supinfo.suphotel.hotel.domain.gateway.HotelDto;
-import com.supinfo.suphotel.hotel.domain.gateway.OpenDto;
-import com.supinfo.suphotel.hotel.domain.mapper.OpenMapper;
 import com.supinfo.suphotel.hotel.infrastructure.OpenRepository;
 import com.supinfo.suphotel.hotel.infrastructure.model.Open;
 import org.springframework.stereotype.Component;
