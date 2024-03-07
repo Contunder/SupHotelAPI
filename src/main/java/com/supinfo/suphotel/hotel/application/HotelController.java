@@ -1,5 +1,6 @@
 package com.supinfo.suphotel.hotel.application;
 
+import com.supinfo.suphotel.hotel.domain.gateway.FilterHotelDto;
 import com.supinfo.suphotel.hotel.domain.gateway.HotelDto;
 import com.supinfo.suphotel.hotel.domain.gateway.HotelsResponse;
 import com.supinfo.suphotel.hotel.domain.usecase.*;
@@ -40,17 +41,14 @@ public class HotelController {
         return ResponseEntity.ok(readHotel.execute(pageNo, pageSize, sortBy, sortDir));
     }
 
-    @GetMapping(value = {"/read/city/{city}/datein/{datein}/dateout/{dateout}/people/{people}"})
+    @PostMapping(value = {"/read/filter"})
     public ResponseEntity<HotelsResponse> readHotelbyFilter(
-            @PathVariable("city") String city,
-            @PathVariable("datein") Date dateIn,
-            @PathVariable("dateout") Date dateOut,
-            @PathVariable("people") int people,
+            @Valid @RequestBody FilterHotelDto filterHotelDto,
             @RequestParam(value = "pageNo", defaultValue = DEFAULT_PAGE_NUMBER, required = false) int pageNo,
             @RequestParam(value = "pageSize", defaultValue = DEFAULT_PAGE_SIZE, required = false) int pageSize,
             @RequestParam(value = "sortBy", defaultValue = DEFAULT_SORT_BY, required = false) String sortBy,
             @RequestParam(value = "sortDir", defaultValue = DEFAULT_SORT_DIRECTION, required = false) String sortDir) {
-        return ResponseEntity.ok(readHotelWithFilter.execute(pageNo, pageSize, sortBy, sortDir, city, dateIn, dateOut, people));
+        return ResponseEntity.ok(readHotelWithFilter.execute(pageNo, pageSize, sortBy, sortDir, filterHotelDto));
     }
 
     @PostMapping("/create")

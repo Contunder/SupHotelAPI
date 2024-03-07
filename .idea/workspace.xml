@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8039853a-6861-46f0-8c9e-a77bb50d0c95" name="Changes" comment="Add Open days">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadOpenDate.java" afterDir="false" />
+    <list default="true" id="8039853a-6861-46f0-8c9e-a77bb50d0c95" name="Changes" comment="Refacto">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/gateway/FilterHotelDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/application/HotelControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/gateway/HotelDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/gateway/HotelDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/mapper/HotelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/mapper/HotelMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/mapper/OpenMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/mapper/OpenMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/CreateHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/CreateHotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/GetHotelWithFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelWithFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/SaveOpenDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/SaveOpenDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/UpdateHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/UpdateHotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/HotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/HotelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/OpenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/OpenRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/model/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/infrastructure/model/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelWithFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelWithFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -50,6 +47,9 @@
 }</component>
   <component name="KubernetesSettings">
     <option name="contextName" value="docker-desktop" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -88,11 +88,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\valen\Documents\GitHub\SupHotel\SupHotel\SupHotelAPI" />
       <recent name="C:\Users\valen\Documents\GitHub\SupHotel\SupHotel\src\main\java\com\supinfo\suphotel\booking" />
       <recent name="C:\Users\valen\Documents\GitHub\SupHotel\SupHotel\src\main\resources" />
       <recent name="C:\Users\valen\Documents\GitHub\SupHotel\SupHotel\src" />
       <recent name="C:\Users\valen\Documents\GitHub\SupHotel\SupHotel" />
-      <recent name="C:\Users\valen\Documents\GitHub\SupHotel\SupHotel\src\main" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -103,6 +103,7 @@
       <recent name="com.supinfo.suphotel.user.application" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.supinfo.suphotel.hotel.application" />
       <recent name="com.supinfo.suphotel.user.domain.usecase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -111,25 +112,42 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SupHotelApplication">
-    <configuration name="All in springboot-hotel-rest-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelControllerTest.testGetUserByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.supinfo.suphotel.hotel.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.application" />
+      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.application.HotelControllerTest" />
+      <option name="METHOD_NAME" value="testGetUserByEmail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomUserDetailsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelControllerTest.testReadHotelbyFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.security.*" />
+          <option name="PATTERN" value="com.supinfo.suphotel.hotel.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.security" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.security.CustomUserDetailsServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.application" />
+      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.application.HotelControllerTest" />
+      <option name="METHOD_NAME" value="testReadHotelbyFilter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in springboot-hotel-rest-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-hotel-rest-api" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,21 +216,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="springboot-hotel-rest-api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/test&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="SupHotel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,18 +252,18 @@
     </configuration>
     <list>
       <item itemvalue="Docker.Dockerfile" />
-      <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
-      <item itemvalue="JUnit.CustomUserDetailsServiceTest" />
-      <item itemvalue="Python tests.Python tests in test" />
+      <item itemvalue="JUnit.HotelControllerTest.testGetUserByEmail" />
+      <item itemvalue="JUnit.HotelControllerTest.testReadHotelbyFilter" />
+      <item itemvalue="JUnit.java in springboot-hotel-rest-api" />
       <item itemvalue="Spring Boot.SupHotelApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SupHotelApplication" />
+        <item itemvalue="JUnit.HotelControllerTest.testReadHotelbyFilter" />
+        <item itemvalue="JUnit.HotelControllerTest.testGetUserByEmail" />
+        <item itemvalue="JUnit.java in springboot-hotel-rest-api" />
         <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Spring Boot.SupHotelApplication" />
-        <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
-        <item itemvalue="JUnit.CustomUserDetailsServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +284,7 @@
       <workItem from="1709741210692" duration="38000" />
       <workItem from="1709741393064" duration="1763000" />
       <workItem from="1709766860028" duration="321000" />
-      <workItem from="1709812110458" duration="7256000" />
+      <workItem from="1709812110458" duration="12428000" />
     </task>
     <task id="LOCAL-00001" summary="Clean">
       <option name="closed" value="true" />
@@ -379,7 +382,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709741959279</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Open days">
+      <option name="closed" value="true" />
+      <created>1709819638063</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709819638063</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Refacto">
+      <option name="closed" value="true" />
+      <created>1709819696610</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709819696610</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +408,8 @@
     <MESSAGE value="Clean" />
     <MESSAGE value="CRUD Hotel" />
     <MESSAGE value="Add Open days" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Open days" />
+    <MESSAGE value="Refacto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refacto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -401,13 +421,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java</url>
-          <line>59</line>
+          <line>57</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelWithFilter.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -416,5 +436,8 @@
         <watch expression="((Date)((OpenDto)hotelDto.open.toArray()[0]).date).fastTime" custom="com.supinfo.suphotel.hotel.domain.gateway.OpenDto,java.sql.Date" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SupHotelAPI$java_in_springboot_hotel_rest_api.ic" NAME="java in springboot-hotel-rest-api Coverage Results" MODIFIED="1709824530407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
