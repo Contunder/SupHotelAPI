@@ -25,8 +25,8 @@ public class ReadHotelWithFilter {
         Page<Hotel> hotels = new PageImpl<>(
                 hotelRepository.getHotelByCity( filterHotelDto.getCity(), pageable).getContent()
                         .stream()
-                        .filter(hotel -> hotel.getOpenIn().getDate().before(filterHotelDto.getDateIn())
-                                && hotel.getOpenOut().getDate().after(filterHotelDto.getDateOut()))
+                        .filter(hotel -> filterHotelDto.getDateIn().after(hotel.getOpenIn().getDate())
+                                && filterHotelDto.getDateOut().before(hotel.getOpenOut().getDate()))
                 .toList());
 
         return hotelMapper.mapToHotelResponse(

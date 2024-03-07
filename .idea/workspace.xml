@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8039853a-6861-46f0-8c9e-a77bb50d0c95" name="Changes" comment="Add Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/domain/usecase/ReadHotelWithFilterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/CreateHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/CreateHotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/application/HotelControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/application/HotelControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,15 @@
       <recent name="com.example.cube.Model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReadHotelTest.testGetAllHotel">
+  <component name="RunManager" selected="JUnit.ReadHotelWithFilterTest.testReadHotel">
+    <configuration name="All in springboot-hotel-rest-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-hotel-rest-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HotelControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
       <extension name="coverage">
@@ -118,38 +124,6 @@
       <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.application" />
       <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.application.HotelControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotelControllerTest.testCreateHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-hotel-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.hotel.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.application" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.application.HotelControllerTest" />
-      <option name="METHOD_NAME" value="testCreateHotel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotelControllerTest.testUpdateHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-hotel-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.hotel.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.application" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.application.HotelControllerTest" />
-      <option name="METHOD_NAME" value="testUpdateHotel" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,26 +144,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupHotelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <configuration name="ReadHotelWithFilterTest.testReadHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.supinfo.suphotel.SupHotelApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.*" />
+          <option name="PATTERN" value="com.supinfo.suphotel.hotel.domain.usecase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
+      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.domain.usecase" />
+      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.ReadHotelWithFilterTest" />
+      <option name="METHOD_NAME" value="testReadHotel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,6 +190,31 @@
       <deployment type="dockerfile">
         <settings />
       </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="springboot-hotel-rest-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Autodetect">
@@ -262,18 +253,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.HotelControllerTest" />
-      <item itemvalue="JUnit.HotelControllerTest.testCreateHotel" />
-      <item itemvalue="JUnit.HotelControllerTest.testUpdateHotel" />
       <item itemvalue="JUnit.ReadHotelTest.testGetAllHotel" />
-      <item itemvalue="Spring Boot.SupHotelApplication" />
+      <item itemvalue="JUnit.ReadHotelWithFilterTest.testReadHotel" />
+      <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
+      <item itemvalue="Python tests.Python tests in test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReadHotelWithFilterTest.testReadHotel" />
+        <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
+        <item itemvalue="Python tests.Python tests in test" />
         <item itemvalue="JUnit.ReadHotelTest.testGetAllHotel" />
         <item itemvalue="JUnit.HotelControllerTest" />
-        <item itemvalue="JUnit.HotelControllerTest.testUpdateHotel" />
-        <item itemvalue="JUnit.HotelControllerTest.testCreateHotel" />
-        <item itemvalue="Spring Boot.SupHotelApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +285,7 @@
       <workItem from="1709741210692" duration="38000" />
       <workItem from="1709741393064" duration="1763000" />
       <workItem from="1709766860028" duration="321000" />
-      <workItem from="1709812110458" duration="15642000" />
+      <workItem from="1709812110458" duration="15952000" />
     </task>
     <task id="LOCAL-00001" summary="Clean">
       <option name="closed" value="true" />
@@ -432,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709834159412</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add Test">
+      <option name="closed" value="true" />
+      <created>1709835058318</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709835058318</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,12 +455,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java</url>
-          <line>57</line>
+          <line>55</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/application/HotelController.java</url>
-          <line>50</line>
+          <line>48</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
@@ -473,6 +472,10 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SupHotelAPI$All_in_springboot_hotel_rest_api.ic" NAME="All in springboot-hotel-rest-api Coverage Results" MODIFIED="1709835123063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SupHotelAPI$ReadHotelTest_testGetAllHotel.ic" NAME="ReadHotelTest.testGetAllHotel Coverage Results" MODIFIED="1709835007102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.supinfo.suphotel.hotel.domain.usecase.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/SupHotelAPI$java_in_springboot_hotel_rest_api.ic" NAME="java in springboot-hotel-rest-api Coverage Results" MODIFIED="1709824530407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SupHotelAPI$HotelControllerTest.ic" NAME="HotelControllerTest Coverage Results" MODIFIED="1709834116735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.supinfo.suphotel.hotel.application.*</FILTER>
