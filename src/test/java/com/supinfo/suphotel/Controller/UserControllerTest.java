@@ -2,9 +2,7 @@ package com.supinfo.suphotel.Controller;
 
 import com.supinfo.suphotel.user.domain.gateway.UserDto;
 import com.supinfo.suphotel.user.application.UserController;
-import com.supinfo.suphotel.user.domain.usecase.AllUser;
-import com.supinfo.suphotel.user.domain.usecase.UserByEmail;
-import com.supinfo.suphotel.user.domain.usecase.UserById;
+import com.supinfo.suphotel.user.domain.usecase.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -25,12 +23,16 @@ class UserControllerTest {
 
     @Mock
     private AllUser allUser;
+    @Mock
+    private DeleteUser deleteUser;
+    @Mock
+    private UpdateUser updateUser;
 
     private UserController userController;
 
     @BeforeEach
     void setup() {
-        userController = new UserController(userByEmail, userById, allUser, null, null);
+        userController = new UserController(userByEmail, userById, allUser, deleteUser, updateUser, null, null);
     }
 
     @Test
