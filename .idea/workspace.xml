@@ -106,19 +106,26 @@
       <recent name="com.example.cube.Model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteUserTest.testDeleteHotel">
-    <configuration name="DeleteHotelTest.testCreateHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeleteUserTest">
+    <configuration name="All in springboot-hotel-rest-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-hotel-rest-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.hotel.domain.usecase.*" />
+          <option name="PATTERN" value="com.supinfo.suphotel.user.domain.usecase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.domain.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.DeleteHotelTest" />
-      <option name="METHOD_NAME" value="testCreateHotel" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.user.domain.usecase" />
+      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.user.domain.usecase.DeleteUserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,22 +141,6 @@
       <option name="PACKAGE_NAME" value="com.supinfo.suphotel.user.domain.usecase" />
       <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.user.domain.usecase.DeleteUserTest" />
       <option name="METHOD_NAME" value="testDeleteHotel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SaveOpenDateTest.testSaveOpenDate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-hotel-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.hotel.domain.usecase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.domain.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.SaveOpenDateTest" />
-      <option name="METHOD_NAME" value="testSaveOpenDate2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeleteHotelTest.testCreateHotel" />
+      <item itemvalue="JUnit.DeleteUserTest" />
       <item itemvalue="JUnit.DeleteUserTest.testDeleteHotel" />
-      <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate2" />
       <item itemvalue="JUnit.UpdateUserTest" />
       <item itemvalue="JUnit.UpdateUserTest.testUpdateHotel" />
+      <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeleteUserTest" />
+        <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
         <item itemvalue="JUnit.DeleteUserTest.testDeleteHotel" />
         <item itemvalue="JUnit.UpdateUserTest" />
         <item itemvalue="JUnit.UpdateUserTest.testUpdateHotel" />
-        <item itemvalue="JUnit.DeleteHotelTest.testCreateHotel" />
-        <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate2" />
       </list>
     </recent_temporary>
   </component>
