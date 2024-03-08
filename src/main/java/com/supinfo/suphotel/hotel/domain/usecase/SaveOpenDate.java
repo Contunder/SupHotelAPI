@@ -5,7 +5,6 @@ import com.supinfo.suphotel.hotel.infrastructure.OpenRepository;
 import com.supinfo.suphotel.hotel.infrastructure.model.Open;
 import org.springframework.stereotype.Component;
 
-
 @Component
 public class SaveOpenDate {
     private final OpenRepository openRepository;

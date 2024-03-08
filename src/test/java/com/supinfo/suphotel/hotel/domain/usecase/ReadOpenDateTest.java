@@ -1,9 +1,6 @@
 package com.supinfo.suphotel.hotel.domain.usecase;
 
-import com.supinfo.suphotel.hotel.domain.gateway.HotelDto;
-import com.supinfo.suphotel.hotel.domain.gateway.OpenDto;
 import com.supinfo.suphotel.hotel.infrastructure.OpenRepository;
-import com.supinfo.suphotel.hotel.infrastructure.model.Hotel;
 import com.supinfo.suphotel.hotel.infrastructure.model.Open;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,8 +11,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.sql.Date;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
@@ -32,7 +27,7 @@ class ReadOpenDateTest {
     }
 
     @Test
-    void testCreateHotel() {
+    void testReadOpenDate() {
         // Arrange
         Open open = new Open(1, new Date(123));
 

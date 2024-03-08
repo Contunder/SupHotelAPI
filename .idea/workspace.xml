@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8039853a-6861-46f0-8c9e-a77bb50d0c95" name="Changes" comment="Add Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/domain/usecase/ReadOpenDateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/domain/usecase/SaveOpenDateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/domain/usecase/ReadOpenDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/domain/usecase/ReadOpenDateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,27 +105,11 @@
       <recent name="com.example.cube.Model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReadOpenDateTest.testCreateHotel">
+  <component name="RunManager" selected="JUnit.SaveOpenDateTest.testSaveOpenDate2">
     <configuration name="All in springboot-hotel-rest-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateHotelTest.testCreateHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-hotel-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.hotel.domain.usecase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.domain.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.CreateHotelTest" />
-      <option name="METHOD_NAME" value="testCreateHotel" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateHotelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SaveOpenDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
       <extension name="coverage">
         <pattern>
@@ -154,13 +139,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.domain.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.UpdateHotelTest" />
+      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.SaveOpenDateTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateHotelTest.testUpdateHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SaveOpenDateTest.testSaveOpenDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
       <extension name="coverage">
         <pattern>
@@ -169,8 +154,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.domain.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.UpdateHotelTest" />
-      <option name="METHOD_NAME" value="testUpdateHotel" />
+      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.SaveOpenDateTest" />
+      <option name="METHOD_NAME" value="testSaveOpenDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaveOpenDateTest.testSaveOpenDate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-hotel-rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.supinfo.suphotel.hotel.domain.usecase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.domain.usecase" />
+      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.SaveOpenDateTest" />
+      <option name="METHOD_NAME" value="testSaveOpenDate2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CreateHotelTest.testCreateHotel" />
       <item itemvalue="JUnit.ReadOpenDateTest.testCreateHotel" />
-      <item itemvalue="JUnit.UpdateHotelTest" />
-      <item itemvalue="JUnit.UpdateHotelTest.testUpdateHotel" />
+      <item itemvalue="JUnit.SaveOpenDateTest" />
+      <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate" />
+      <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate2" />
       <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate2" />
+        <item itemvalue="JUnit.SaveOpenDateTest" />
+        <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate" />
         <item itemvalue="JUnit.ReadOpenDateTest.testCreateHotel" />
         <item itemvalue="JUnit.All in springboot-hotel-rest-api" />
-        <item itemvalue="JUnit.UpdateHotelTest" />
-        <item itemvalue="JUnit.UpdateHotelTest.testUpdateHotel" />
-        <item itemvalue="JUnit.CreateHotelTest.testCreateHotel" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +252,7 @@
       <workItem from="1709741393064" duration="1763000" />
       <workItem from="1709766860028" duration="321000" />
       <workItem from="1709812110458" duration="16314000" />
-      <workItem from="1709900752418" duration="2103000" />
+      <workItem from="1709900752418" duration="2862000" />
     </task>
     <task id="LOCAL-00001" summary="Clean">
       <option name="closed" value="true" />
@@ -429,7 +430,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709902500783</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add Test">
+      <option name="closed" value="true" />
+      <created>1709902903791</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709902903791</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,6 +470,16 @@
           <line>48</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/SaveOpenDate.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/hotel/domain/usecase/SaveOpenDate.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -475,6 +494,12 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/SupHotelAPI$All_in_springboot_hotel_rest_api.ic" NAME="All in springboot-hotel-rest-api Coverage Results" MODIFIED="1709902592391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SupHotelAPI$ReadHotelTest_testGetAllHotel.ic" NAME="ReadHotelTest.testGetAllHotel Coverage Results" MODIFIED="1709835007102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.supinfo.suphotel.hotel.domain.usecase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SupHotelAPI$ReadOpenDateTest_testCreateHotel.ic" NAME="ReadOpenDateTest.testCreateHotel Coverage Results" MODIFIED="1709902888558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.supinfo.suphotel.hotel.domain.usecase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SupHotelAPI$SaveOpenDateTest.ic" NAME="SaveOpenDateTest Coverage Results" MODIFIED="1709903557665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.supinfo.suphotel.hotel.domain.usecase.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SupHotelAPI$java_in_springboot_hotel_rest_api.ic" NAME="java in springboot-hotel-rest-api Coverage Results" MODIFIED="1709824530407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
