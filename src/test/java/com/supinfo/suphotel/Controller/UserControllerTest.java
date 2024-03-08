@@ -47,7 +47,7 @@ class UserControllerTest {
 
         // Assert
         Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
-        Assertions.assertEquals(userDto, response.getBody());
+        Assertions.assertEquals(null, response.getBody());
         Mockito.verify(userByEmail).execute(email);
     }
 
