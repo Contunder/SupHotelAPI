@@ -8,10 +8,12 @@ import com.supinfo.suphotel.user.infrastructure.UserRepository;
 import com.supinfo.suphotel.user.infrastructure.model.Role;
 import com.supinfo.suphotel.user.infrastructure.model.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Component;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Component
 public class UpdateUser {
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
