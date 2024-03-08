@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8039853a-6861-46f0-8c9e-a77bb50d0c95" name="Changes" comment="Add Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/user/domain/usecase/UpdateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/user/domain/usecase/DeleteUser.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/hotel/domain/usecase/DeleteHotelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/user/domain/usecase/UpdateUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/supinfo/suphotel/user/domain/usecase/DeleteUserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/user/domain/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/user/domain/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +106,7 @@
       <recent name="com.example.cube.Model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UpdateUserTest.testUpdateHotel">
+  <component name="RunManager" selected="JUnit.DeleteUserTest.testDeleteHotel">
     <configuration name="DeleteHotelTest.testCreateHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
       <extension name="coverage">
@@ -124,32 +123,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaveOpenDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteUserTest.testDeleteHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-hotel-rest-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.hotel.domain.usecase.*" />
+          <option name="PATTERN" value="com.supinfo.suphotel.user.domain.usecase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.domain.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.SaveOpenDateTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SaveOpenDateTest.testSaveOpenDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-hotel-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.supinfo.suphotel.hotel.domain.usecase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.hotel.domain.usecase" />
-      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.SaveOpenDateTest" />
-      <option name="METHOD_NAME" value="testSaveOpenDate" />
+      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.user.domain.usecase" />
+      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.user.domain.usecase.DeleteUserTest" />
+      <option name="METHOD_NAME" value="testDeleteHotel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,6 +151,21 @@
       <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.hotel.domain.usecase.SaveOpenDateTest" />
       <option name="METHOD_NAME" value="testSaveOpenDate2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-hotel-rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.supinfo.suphotel.user.domain.usecase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.supinfo.suphotel.user.domain.usecase" />
+      <option name="MAIN_CLASS_NAME" value="com.supinfo.suphotel.user.domain.usecase.UpdateUserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -229,18 +228,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.DeleteHotelTest.testCreateHotel" />
-      <item itemvalue="JUnit.SaveOpenDateTest" />
-      <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate" />
+      <item itemvalue="JUnit.DeleteUserTest.testDeleteHotel" />
       <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate2" />
+      <item itemvalue="JUnit.UpdateUserTest" />
       <item itemvalue="JUnit.UpdateUserTest.testUpdateHotel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeleteUserTest.testDeleteHotel" />
+        <item itemvalue="JUnit.UpdateUserTest" />
         <item itemvalue="JUnit.UpdateUserTest.testUpdateHotel" />
         <item itemvalue="JUnit.DeleteHotelTest.testCreateHotel" />
         <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate2" />
-        <item itemvalue="JUnit.SaveOpenDateTest" />
-        <item itemvalue="JUnit.SaveOpenDateTest.testSaveOpenDate" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +261,7 @@
       <workItem from="1709741393064" duration="1763000" />
       <workItem from="1709766860028" duration="321000" />
       <workItem from="1709812110458" duration="16314000" />
-      <workItem from="1709900752418" duration="4649000" />
+      <workItem from="1709900752418" duration="5191000" />
     </task>
     <task id="LOCAL-00001" summary="Clean">
       <option name="closed" value="true" />
@@ -456,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709903648385</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add Test">
+      <option name="closed" value="true" />
+      <created>1709905607582</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1709905607582</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,9 +506,9 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/user/domain/usecase/UpdateUser.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/supinfo/suphotel/user/domain/mapper/UserMapper.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -540,6 +547,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/SupHotelAPI$DeleteHotelTest_testCreateHotel.ic" NAME="DeleteHotelTest.testCreateHotel Coverage Results" MODIFIED="1709903914479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.supinfo.suphotel.hotel.domain.usecase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SupHotelAPI$UpdateUserTest.ic" NAME="UpdateUserTest Coverage Results" MODIFIED="1709905640705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.supinfo.suphotel.user.domain.usecase.*</FILTER>
     </SUITE>
   </component>
 </project>
